@@ -1,0 +1,19 @@
+3 konsep 
+1. controller saja semua pengcodingan dilakukan di controller. (pemanggilan tampilan pada browser memanggil file controller
+
+2. controller + model
+controller memanggil fungsi yang ada di model (pemrosesan terjadi di model). kemudian setelah dipanggil tetap untuk pemanggilan pada browser adalah memanggil file controller 
+
+3. controller + model + view 
+controller memanggil fungsi yang ada di model (pemrosesan terjadi di model), kemudian view memanggil variabel yang sudah di proses oleh controller untuk ditampilkan di file view. pemanggilan pada browser adalah tampilan dari file view yang sudah di panggil di controller. (Memanggil nama fungsi controller) 
+Misal : 
+nama file controller : latihan1
+nama file model : model_latihan1
+nama file view : view_latihan1
+yang dipanggil di browser adalah nama fungsi controller sehingga 
+localhost/pustaka-booking/index.php/latihan1/
+
+-> controller memanggil fungsi yang ada di model dan memanggil juga file view 
+-> view memanggil nama-nama variabel yang ada di controller
+
+controller : ada fungsi model, ada fungsi tampilan view 
