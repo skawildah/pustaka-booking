@@ -3,7 +3,7 @@
         <title>Tampil Data Matakuliah</title>
     </head>
     <body>
-        <center>
+        <center> 
             <table>
                 <tr>
                     <th colspan="3">

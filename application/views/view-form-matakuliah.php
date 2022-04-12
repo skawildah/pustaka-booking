@@ -41,7 +41,7 @@
                     <option value="4">4</option>
                     </select>
                     </td>
-                </tr>
+                </tr> 
                 <tr>
                     <td colspan="3" align="center">
                     <input type="submit" value="Submit">
