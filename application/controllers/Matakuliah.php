@@ -30,7 +30,7 @@
                 'nama' => $this->input->post('nama'),
                 'sks' => $this->input->post('sks')
                 ];
-                $this->load->view('view-data-matakuliah', $data);
+                $this->load->view('view-datamatakuliah', $data);
             }
         }
     }
